@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11DBDB247864EA098B4FC949 /* Pods_svgIconTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC930AB994E593BE2C695C4A /* Pods_svgIconTest.framework */; };
+		A5216FC9243CA99B00413F48 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5216FC8243CA99B00413F48 /* SVGKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A5216FCB243CA9A800413F48 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5216FCA243CA9A800413F48 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A5ED9F70243DF50E00ACB672 /* tubiao-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6A243DF50E00ACB672 /* tubiao-3.svg */; };
+		A5ED9F71243DF50E00ACB672 /* tubiao-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6B243DF50E00ACB672 /* tubiao-5.svg */; };
+		A5ED9F72243DF50E00ACB672 /* tubiao-0.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6C243DF50E00ACB672 /* tubiao-0.svg */; };
+		A5ED9F73243DF50E00ACB672 /* tubiao-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6D243DF50E00ACB672 /* tubiao-4.svg */; };
+		A5ED9F74243DF50E00ACB672 /* tubiao-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6E243DF50E00ACB672 /* tubiao-2.svg */; };
+		A5ED9F75243DF50E00ACB672 /* tubiao-1.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5ED9F6F243DF50E00ACB672 /* tubiao-1.svg */; };
+		EE880DDD243C521A006F88BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880DDC243C521A006F88BC /* AppDelegate.m */; };
+		EE880DE3243C521A006F88BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880DE2243C521A006F88BC /* ViewController.m */; };
+		EE880DE8243C521B006F88BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE880DE7243C521B006F88BC /* Assets.xcassets */; };
+		EE880DEB243C521B006F88BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE880DE9243C521B006F88BC /* LaunchScreen.storyboard */; };
+		EE880DEE243C521B006F88BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880DED243C521B006F88BC /* main.m */; };
+		EE880DF8243C521C006F88BC /* svgIconTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880DF7243C521C006F88BC /* svgIconTestTests.m */; };
+		EE880E03243C521C006F88BC /* svgIconTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880E02243C521C006F88BC /* svgIconTestUITests.m */; };
+		EE880E32243C746B006F88BC /* UIImage+SVGKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EE880E31243C746B006F88BC /* UIImage+SVGKit.m */; };
+		EE880E37243C79AA006F88BC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE880E36243C79AA006F88BC /* CoreImage.framework */; };
+		EE880E39243C79B5006F88BC /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE880E38243C79B5006F88BC /* libxml2.tbd */; };
+		EE880E3B243C79BC006F88BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE880E3A243C79BC006F88BC /* QuartzCore.framework */; };
+		EE880E3D243C79C2006F88BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE880E3C243C79C2006F88BC /* CoreGraphics.framework */; };
+		EE880ECA243C7CCA006F88BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE880EC9243C7CCA006F88BC /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE880DF4243C521C006F88BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE880DD0243C521A006F88BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE880DD7243C521A006F88BC;
+			remoteInfo = svgIconTest;
+		};
+		EE880DFF243C521C006F88BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE880DD0243C521A006F88BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE880DD7243C521A006F88BC;
+			remoteInfo = svgIconTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40B3AC3161FC1D125498AEBA /* Pods-svgIconTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-svgIconTest.debug.xcconfig"; path = "Target Support Files/Pods-svgIconTest/Pods-svgIconTest.debug.xcconfig"; sourceTree = "<group>"; };
+		707569076E0B74FB7662E378 /* Pods-svgIconTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-svgIconTest.release.xcconfig"; path = "Target Support Files/Pods-svgIconTest/Pods-svgIconTest.release.xcconfig"; sourceTree = "<group>"; };
+		A5216FC8243CA99B00413F48 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5216FCA243CA9A800413F48 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5ED9F6A243DF50E00ACB672 /* tubiao-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-3.svg"; sourceTree = "<group>"; };
+		A5ED9F6B243DF50E00ACB672 /* tubiao-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-5.svg"; sourceTree = "<group>"; };
+		A5ED9F6C243DF50E00ACB672 /* tubiao-0.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-0.svg"; sourceTree = "<group>"; };
+		A5ED9F6D243DF50E00ACB672 /* tubiao-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-4.svg"; sourceTree = "<group>"; };
+		A5ED9F6E243DF50E00ACB672 /* tubiao-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-2.svg"; sourceTree = "<group>"; };
+		A5ED9F6F243DF50E00ACB672 /* tubiao-1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "tubiao-1.svg"; sourceTree = "<group>"; };
+		DC930AB994E593BE2C695C4A /* Pods_svgIconTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_svgIconTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE880DD8243C521A006F88BC /* svgIconTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = svgIconTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE880DDB243C521A006F88BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE880DDC243C521A006F88BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE880DE1243C521A006F88BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE880DE2243C521A006F88BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE880DE7243C521B006F88BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE880DEA243C521B006F88BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE880DEC243C521B006F88BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE880DED243C521B006F88BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE880DF3243C521C006F88BC /* svgIconTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = svgIconTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE880DF7243C521C006F88BC /* svgIconTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = svgIconTestTests.m; sourceTree = "<group>"; };
+		EE880DF9243C521C006F88BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE880DFE243C521C006F88BC /* svgIconTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = svgIconTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE880E02243C521C006F88BC /* svgIconTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = svgIconTestUITests.m; sourceTree = "<group>"; };
+		EE880E04243C521C006F88BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE880E30243C746B006F88BC /* UIImage+SVGKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SVGKit.h"; sourceTree = "<group>"; };
+		EE880E31243C746B006F88BC /* UIImage+SVGKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SVGKit.m"; sourceTree = "<group>"; };
+		EE880E36243C79AA006F88BC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		EE880E38243C79B5006F88BC /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		EE880E3A243C79BC006F88BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE880E3C243C79C2006F88BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE880EC9243C7CCA006F88BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE880DD5243C521A006F88BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5216FCB243CA9A800413F48 /* CocoaLumberjack.framework in Frameworks */,
+				A5216FC9243CA99B00413F48 /* SVGKit.framework in Frameworks */,
+				EE880ECA243C7CCA006F88BC /* UIKit.framework in Frameworks */,
+				EE880E3D243C79C2006F88BC /* CoreGraphics.framework in Frameworks */,
+				EE880E3B243C79BC006F88BC /* QuartzCore.framework in Frameworks */,
+				EE880E39243C79B5006F88BC /* libxml2.tbd in Frameworks */,
+				EE880E37243C79AA006F88BC /* CoreImage.framework in Frameworks */,
+				11DBDB247864EA098B4FC949 /* Pods_svgIconTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DF0243C521C006F88BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DFB243C521C006F88BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9E6A0406DEA3AD0F8AE5A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B3AC3161FC1D125498AEBA /* Pods-svgIconTest.debug.xcconfig */,
+				707569076E0B74FB7662E378 /* Pods-svgIconTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5216FDA243CB6FC00413F48 /* svgImages */ = {
+			isa = PBXGroup;
+			children = (
+				A5ED9F6C243DF50E00ACB672 /* tubiao-0.svg */,
+				A5ED9F6F243DF50E00ACB672 /* tubiao-1.svg */,
+				A5ED9F6E243DF50E00ACB672 /* tubiao-2.svg */,
+				A5ED9F6A243DF50E00ACB672 /* tubiao-3.svg */,
+				A5ED9F6D243DF50E00ACB672 /* tubiao-4.svg */,
+				A5ED9F6B243DF50E00ACB672 /* tubiao-5.svg */,
+			);
+			path = svgImages;
+			sourceTree = "<group>";
+		};
+		EE880DCF243C521A006F88BC = {
+			isa = PBXGroup;
+			children = (
+				EE880DDA243C521A006F88BC /* svgIconTest */,
+				EE880DF6243C521C006F88BC /* svgIconTestTests */,
+				EE880E01243C521C006F88BC /* svgIconTestUITests */,
+				EE880DD9243C521A006F88BC /* Products */,
+				EE880E35243C79AA006F88BC /* Frameworks */,
+				6B9E6A0406DEA3AD0F8AE5A0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EE880DD9243C521A006F88BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE880DD8243C521A006F88BC /* svgIconTest.app */,
+				EE880DF3243C521C006F88BC /* svgIconTestTests.xctest */,
+				EE880DFE243C521C006F88BC /* svgIconTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE880DDA243C521A006F88BC /* svgIconTest */ = {
+			isa = PBXGroup;
+			children = (
+				A5216FDA243CB6FC00413F48 /* svgImages */,
+				EE880DDB243C521A006F88BC /* AppDelegate.h */,
+				EE880DDC243C521A006F88BC /* AppDelegate.m */,
+				EE880DE1243C521A006F88BC /* ViewController.h */,
+				EE880DE2243C521A006F88BC /* ViewController.m */,
+				EE880DE7243C521B006F88BC /* Assets.xcassets */,
+				EE880DE9243C521B006F88BC /* LaunchScreen.storyboard */,
+				EE880DEC243C521B006F88BC /* Info.plist */,
+				EE880DED243C521B006F88BC /* main.m */,
+				EE880E30243C746B006F88BC /* UIImage+SVGKit.h */,
+				EE880E31243C746B006F88BC /* UIImage+SVGKit.m */,
+			);
+			path = svgIconTest;
+			sourceTree = "<group>";
+		};
+		EE880DF6243C521C006F88BC /* svgIconTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE880DF7243C521C006F88BC /* svgIconTestTests.m */,
+				EE880DF9243C521C006F88BC /* Info.plist */,
+			);
+			path = svgIconTestTests;
+			sourceTree = "<group>";
+		};
+		EE880E01243C521C006F88BC /* svgIconTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE880E02243C521C006F88BC /* svgIconTestUITests.m */,
+				EE880E04243C521C006F88BC /* Info.plist */,
+			);
+			path = svgIconTestUITests;
+			sourceTree = "<group>";
+		};
+		EE880E35243C79AA006F88BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5216FCA243CA9A800413F48 /* CocoaLumberjack.framework */,
+				A5216FC8243CA99B00413F48 /* SVGKit.framework */,
+				EE880EC9243C7CCA006F88BC /* UIKit.framework */,
+				EE880E3C243C79C2006F88BC /* CoreGraphics.framework */,
+				EE880E3A243C79BC006F88BC /* QuartzCore.framework */,
+				EE880E38243C79B5006F88BC /* libxml2.tbd */,
+				EE880E36243C79AA006F88BC /* CoreImage.framework */,
+				DC930AB994E593BE2C695C4A /* Pods_svgIconTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE880DD7243C521A006F88BC /* svgIconTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE880E07243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTest" */;
+			buildPhases = (
+				DDB6ECB9BF94B300C94277BE /* [CP] Check Pods Manifest.lock */,
+				EE880DD4243C521A006F88BC /* Sources */,
+				EE880DD5243C521A006F88BC /* Frameworks */,
+				EE880DD6243C521A006F88BC /* Resources */,
+				4D8AADB2B24FA23373E8E932 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svgIconTest;
+			productName = svgIconTest;
+			productReference = EE880DD8243C521A006F88BC /* svgIconTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE880DF2243C521C006F88BC /* svgIconTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE880E0A243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTestTests" */;
+			buildPhases = (
+				EE880DEF243C521C006F88BC /* Sources */,
+				EE880DF0243C521C006F88BC /* Frameworks */,
+				EE880DF1243C521C006F88BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE880DF5243C521C006F88BC /* PBXTargetDependency */,
+			);
+			name = svgIconTestTests;
+			productName = svgIconTestTests;
+			productReference = EE880DF3243C521C006F88BC /* svgIconTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE880DFD243C521C006F88BC /* svgIconTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE880E0D243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTestUITests" */;
+			buildPhases = (
+				EE880DFA243C521C006F88BC /* Sources */,
+				EE880DFB243C521C006F88BC /* Frameworks */,
+				EE880DFC243C521C006F88BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE880E00243C521C006F88BC /* PBXTargetDependency */,
+			);
+			name = svgIconTestUITests;
+			productName = svgIconTestUITests;
+			productReference = EE880DFE243C521C006F88BC /* svgIconTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE880DD0243C521A006F88BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EE880DD7243C521A006F88BC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EE880DF2243C521C006F88BC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EE880DD7243C521A006F88BC;
+					};
+					EE880DFD243C521C006F88BC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EE880DD7243C521A006F88BC;
+					};
+				};
+			};
+			buildConfigurationList = EE880DD3243C521A006F88BC /* Build configuration list for PBXProject "svgIconTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE880DCF243C521A006F88BC;
+			productRefGroup = EE880DD9243C521A006F88BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE880DD7243C521A006F88BC /* svgIconTest */,
+				EE880DF2243C521C006F88BC /* svgIconTestTests */,
+				EE880DFD243C521C006F88BC /* svgIconTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE880DD6243C521A006F88BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ED9F71243DF50E00ACB672 /* tubiao-5.svg in Resources */,
+				EE880DEB243C521B006F88BC /* LaunchScreen.storyboard in Resources */,
+				A5ED9F72243DF50E00ACB672 /* tubiao-0.svg in Resources */,
+				A5ED9F74243DF50E00ACB672 /* tubiao-2.svg in Resources */,
+				A5ED9F70243DF50E00ACB672 /* tubiao-3.svg in Resources */,
+				A5ED9F75243DF50E00ACB672 /* tubiao-1.svg in Resources */,
+				A5ED9F73243DF50E00ACB672 /* tubiao-4.svg in Resources */,
+				EE880DE8243C521B006F88BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DF1243C521C006F88BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DFC243C521C006F88BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D8AADB2B24FA23373E8E932 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-svgIconTest/Pods-svgIconTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-svgIconTest/Pods-svgIconTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-svgIconTest/Pods-svgIconTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB6ECB9BF94B300C94277BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-svgIconTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE880DD4243C521A006F88BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE880DE3243C521A006F88BC /* ViewController.m in Sources */,
+				EE880DDD243C521A006F88BC /* AppDelegate.m in Sources */,
+				EE880DEE243C521B006F88BC /* main.m in Sources */,
+				EE880E32243C746B006F88BC /* UIImage+SVGKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DEF243C521C006F88BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE880DF8243C521C006F88BC /* svgIconTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE880DFA243C521C006F88BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE880E03243C521C006F88BC /* svgIconTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE880DF5243C521C006F88BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE880DD7243C521A006F88BC /* svgIconTest */;
+			targetProxy = EE880DF4243C521C006F88BC /* PBXContainerItemProxy */;
+		};
+		EE880E00243C521C006F88BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE880DD7243C521A006F88BC /* svgIconTest */;
+			targetProxy = EE880DFF243C521C006F88BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE880DE9243C521B006F88BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE880DEA243C521B006F88BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE880E05243C521C006F88BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE880E06243C521C006F88BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE880E08243C521C006F88BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B3AC3161FC1D125498AEBA /* Pods-svgIconTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = svgIconTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE880E09243C521C006F88BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707569076E0B74FB7662E378 /* Pods-svgIconTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = svgIconTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE880E0B243C521C006F88BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				INFOPLIST_FILE = svgIconTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svgIconTest.app/svgIconTest";
+			};
+			name = Debug;
+		};
+		EE880E0C243C521C006F88BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				INFOPLIST_FILE = svgIconTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/svgIconTest.app/svgIconTest";
+			};
+			name = Release;
+		};
+		EE880E0E243C521C006F88BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				INFOPLIST_FILE = svgIconTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = svgIconTest;
+			};
+			name = Debug;
+		};
+		EE880E0F243C521C006F88BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYFPU28B7N;
+				INFOPLIST_FILE = svgIconTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.manniu.burryPoint.svgIconTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = svgIconTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE880DD3243C521A006F88BC /* Build configuration list for PBXProject "svgIconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE880E05243C521C006F88BC /* Debug */,
+				EE880E06243C521C006F88BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE880E07243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE880E08243C521C006F88BC /* Debug */,
+				EE880E09243C521C006F88BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE880E0A243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE880E0B243C521C006F88BC /* Debug */,
+				EE880E0C243C521C006F88BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE880E0D243C521C006F88BC /* Build configuration list for PBXNativeTarget "svgIconTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE880E0E243C521C006F88BC /* Debug */,
+				EE880E0F243C521C006F88BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE880DD0243C521A006F88BC /* Project object */;
+}
