@@ -1,0 +1,30 @@
+//
+//  MzTheme.pch
+//  MzThemeMaster
+//
+//  Created by benjaminlmz@qq.com on 2020/4/23.
+//  Copyright © 2020 Tony. All rights reserved.
+//
+
+#ifndef MzTheme_pch
+#define MzTheme_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UITabBar+MzTheme.h"
+#import "UIImage+SVGKit.h"
+//#import "SVGKit-prefix.pch"
+#import "UINavigationBar+MzTheme.h"
+#import "SVGKit-prefix.pch"
+#import "MzMethod.h"
+
+#import "MThemeManager.h"   //singleton
+
+#import "GlobalColor.h"     // include some theme color Class Method
+#import "GlobalParams.h"
+
+
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* MzTheme_pch */
